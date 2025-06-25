@@ -2,19 +2,19 @@
 
 ---
 
-# 🔐 BreachWatch – Flask API
+#  BreachWatch – Flask API
 
 This is the backend API service for **BreachWatch**, a simple and secure app to check whether a password has been exposed in a known data breach using the HaveIBeenPwned (HIBP) API.
 
 ---
 
-## 🌐 Live Backend URL
+##  Live Backend URL
 
 > `https://<your-render-subdomain>.onrender.com`
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3.10+
 - Flask
@@ -24,7 +24,7 @@ This is the backend API service for **BreachWatch**, a simple and secure app to 
 
 ---
 
-## 🚀 API Endpoints
+##  API Endpoints
 
 ### `POST /check_password`
 
@@ -49,7 +49,7 @@ Checks whether the given password hash suffix has been found in known breaches.
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone and Install
 
@@ -69,7 +69,7 @@ gunicorn app:app --bind 0.0.0.0:10000
 
 ---
 
-## 📄 `requirements.txt`
+##  `requirements.txt`
 
 ```
 flask
@@ -80,7 +80,7 @@ flask-cors
 
 ---
 
-## 🔐 Security Note
+##  Security Note
 
 * Passwords are hashed client-side using SHA1.
 * Only a 5-character prefix of the hash is sent to the backend.
