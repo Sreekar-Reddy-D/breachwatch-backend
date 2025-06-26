@@ -8,12 +8,6 @@ This is the backend API service for **BreachWatch**, a simple and secure app to 
 
 ---
 
-##  Live Backend URL
-
-> `https://<your-render-subdomain>.onrender.com`
-
----
-
 ##  Tech Stack
 
 - Python 3.10+
